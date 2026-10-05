@@ -121,13 +121,3 @@ em [`docs/pessoas.md`](docs/pessoas.md); pedido por
 Código sob [MIT](LICENSE). Catálogo, vistas, estimativa e relatórios sob
 [CC BY 4.0](LICENSE-CATALOGO.md). Os documentos catalogados continuam sob os direitos de
 quem os publicou: o catálogo aponta, não redistribui. Para citar: [`CITATION.cff`](CITATION.cff).
-
-## Apoie
-
-Este observatório é mantido por uma pessoa, nas horas livres, sem financiamento. O que o apoio
-compra é tempo: para ler a fila "pede juízo", para substituir o léxico provisório, para conferir
-os domínios candidatos que a Wikipédia aponta. A varredura em si roda de graça no GitHub Actions.
-
-[GitHub Sponsors](https://github.com/sponsors/luccas-amorim) · [PIX](https://luccas-amorim.github.io/apoie/)
-
-Tudo o que o apoio financia continua aberto e gratuito. Nada aqui é consultoria jurídica.
