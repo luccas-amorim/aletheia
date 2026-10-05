@@ -1,0 +1,16 @@
+[
+ [
+  "timestamp",
+  "original",
+  "statuscode",
+  "mimetype",
+  "digest"
+ ],
+ [
+  "20160927090000",
+  "https://www.jornal.exemplo.br/2016/09/carandiru-julgamento-anulado.shtml",
+  "200",
+  "text/html",
+  "CCCC"
+ ]
+]

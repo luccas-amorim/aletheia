@@ -1,0 +1,27 @@
+[
+ [
+  "timestamp",
+  "original",
+  "statuscode",
+  "mimetype",
+  "digest"
+ ],
+ [
+  "19990301120000",
+  "http://www1.jornal.exemplo.br/fsp/cotidian/carandiru-ff02109912.htm",
+  "200",
+  "text/html",
+  "AAAA"
+ ],
+ [
+  "20021002080000",
+  "http://www.jornal.exemplo.br/carandiru-10-anos.shtml",
+  "200",
+  "text/html",
+  "BBBB"
+ ],
+ [],
+ [
+  "br,exemplo,jornal)/carandiru-10-anos.shtml 20021002080000"
+ ]
+]
