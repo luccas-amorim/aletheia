@@ -80,7 +80,8 @@ jobs:
             git push -q
           fi
       - if: env.leitura == '1'
-        run: echo "Há itens que pedem leitura: ver saidas/*/relatorio-resumo.md e pede-juizo.jsonl."
+        run: |
+          echo "Há itens que pedem leitura: ver saidas/*/relatorio-resumo.md e pede-juizo.jsonl."
       - if: env.codigo == '2'
         run: |
           echo "Ao menos uma fonte terminou com erro (código 2). Ver saidas/*/relatorio-resumo.md."
