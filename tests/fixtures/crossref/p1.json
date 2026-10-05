@@ -1,0 +1,7 @@
+{"status": "ok", "message": {"next-cursor": "cursor-2", "items": [
+  {"DOI": "10.1000/Exemplo.1", "title": ["Memória e violência de Estado: o Carandiru"],
+   "abstract": "<jats:p>Este artigo analisa a memória do massacre de 1992.</jats:p>",
+   "issued": {"date-parts": [[2020, 5]]}, "URL": "https://doi.org/10.1000/exemplo.1",
+   "container-title": ["Revista de Exemplo"], "type": "journal-article"},
+  {"title": ["Sem DOI"], "issued": {"date-parts": [[null]]}}
+]}}
