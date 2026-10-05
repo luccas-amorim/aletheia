@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Repositório de Exemplo</title>
+  <entry>
+    <title>A Casa de Detenção e a memória do 2 de outubro</title>
+    <link rel="alternate" href="https://repositorio.exemplo.br/handle/123/456"/>
+    <link rel="enclosure" href="https://repositorio.exemplo.br/bitstream/123/456/tese.pdf"/>
+    <id>oai:repositorio.exemplo.br:123/456</id>
+    <published>2026-09-30T14:00:00Z</published>
+  </entry>
+  <entry>
+    <title>Sem link, deve ser ignorada</title>
+    <id>oai:repositorio.exemplo.br:123/457</id>
+    <updated>2026-09-30T14:00:00Z</updated>
+  </entry>
+</feed>
