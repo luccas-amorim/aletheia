@@ -1,0 +1,24 @@
+{
+ "articles": [
+  {
+   "url": "https://noticias.exemplo.com/2026/10/02/carandiru-34-anos",
+   "url_mobile": "",
+   "title": "Carandiru: 34 anos do massacre",
+   "seendate": "20261002T120000Z",
+   "socialimage": "",
+   "domain": "noticias.exemplo.com",
+   "language": "Portuguese",
+   "sourcecountry": "Brazil"
+  },
+  {
+   "url": "https://news.example.org/brazil-prison-massacre",
+   "url_mobile": "",
+   "title": "Brazil marks prison massacre anniversary",
+   "seendate": "20261002T150000Z",
+   "socialimage": "",
+   "domain": "news.example.org",
+   "language": "English",
+   "sourcecountry": "United States"
+  }
+ ]
+}
