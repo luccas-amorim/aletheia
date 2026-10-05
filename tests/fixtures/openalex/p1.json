@@ -1,0 +1,92 @@
+{
+ "meta": {
+  "count": 2,
+  "per_page": 200,
+  "next_cursor": "Ij1hYmMi"
+ },
+ "results": [
+  {
+   "id": "https://openalex.org/W1000000001",
+   "doi": "https://doi.org/10.0000/exemplo.1",
+   "display_name": "Memória e violência de Estado: o massacre do Carandiru",
+   "publication_date": "2026-09-30",
+   "type": "article",
+   "abstract_inverted_index": {
+    "Este": [
+     0
+    ],
+    "artigo": [
+     1
+    ],
+    "analisa": [
+     2
+    ],
+    "a": [
+     3
+    ],
+    "memória": [
+     4
+    ],
+    "do": [
+     5
+    ],
+    "massacre": [
+     6
+    ],
+    "de": [
+     7
+    ],
+    "1992.": [
+     8
+    ]
+   },
+   "primary_location": {
+    "landing_page_url": "https://revista.exemplo.br/artigo/1",
+    "source": {
+     "display_name": "Revista de Exemplo"
+    }
+   },
+   "open_access": {
+    "oa_url": "https://revista.exemplo.br/artigo/1.pdf"
+   }
+  },
+  {
+   "id": "https://openalex.org/W1000000002",
+   "doi": null,
+   "display_name": "Arquitetura prisional em São Paulo",
+   "publication_date": "2026-08-15",
+   "type": "dissertation",
+   "abstract_inverted_index": {
+    "Estudo": [
+     0
+    ],
+    "sobre": [
+     1
+    ],
+    "o": [
+     2
+    ],
+    "Carandiru": [
+     3
+    ],
+    "e": [
+     4
+    ],
+    "presos": [
+     5
+    ],
+    "de": [
+     6
+    ],
+    "1992.": [
+     7
+    ]
+   },
+   "primary_location": {
+    "landing_page_url": "https://repositorio.exemplo.br/handle/1",
+    "source": null
+   },
+   "open_access": {}
+  }
+ ]
+}
