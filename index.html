@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alétheia · Carandiru</title>
+<meta name="description" content="Catálogo aberto do que a internet guarda sobre o massacre do Carandiru (1992), com cobertura estimada.">
+<style>
+  :root { --papel:#faf7f0; --superficie:#fff; --borda:#e0dacb; --tinta:#211f1b; --corpo:#45413a; --fraca:#6a6455; --acento:#8c2f22; --acento-forte:#6d2419;
+          --serifa:"Newsreader","Iowan Old Style","Palatino Linotype",Georgia,serif; --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",sans-serif; --mono:ui-monospace,"IBM Plex Mono",Consolas,monospace; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --papel:#1a1916; --superficie:#23211d; --borda:#3a3630; --tinta:#f2efe9; --corpo:#d8d3c8; --fraca:#a39c8d; --acento:#d98d7e; --acento-forte:#e8a597; } }
+  :root[data-theme="dark"] { --papel:#1a1916; --superficie:#23211d; --borda:#3a3630; --tinta:#f2efe9; --corpo:#d8d3c8; --fraca:#a39c8d; --acento:#d98d7e; --acento-forte:#e8a597; }
+  * { box-sizing:border-box } body { margin:0; background:var(--papel); color:var(--corpo); font:16px/1.55 var(--sans) }
+  a { color:var(--acento) } a:hover { color:var(--acento-forte) }
+  .pagina { max-width:1100px; margin:0 auto; padding:40px 16px 64px }
+  h1,h2 { font-family:var(--serifa); color:var(--tinta); font-weight:600; line-height:1.2; margin:0 0 8px } h1 { font-size:2.2rem } h2 { font-size:1.3rem; margin-top:32px }
+  .sub { color:var(--fraca); margin:0 0 24px }
+  .painel { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin:16px 0 }
+  .tile { background:var(--superficie); border:1px solid var(--borda); border-radius:8px; padding:12px 14px } .tile b { display:block; font-size:1.6rem; color:var(--tinta); font-family:var(--serifa) } .tile span { color:var(--fraca); font-size:.9rem }
+  .filtros { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:10px; margin:12px 0 }
+  .filtros label { display:flex; flex-direction:column; font-size:.85rem; color:var(--fraca); gap:4px }
+  input,select { font:inherit; padding:8px 10px; border:1px solid var(--borda); border-radius:6px; background:var(--superficie); color:var(--tinta); min-width:0 }
+  table { width:100%; border-collapse:collapse; background:var(--superficie); border:1px solid var(--borda); border-radius:8px; overflow:hidden; font-size:.92rem }
+  th,td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--borda); vertical-align:top } th { color:var(--fraca); font-weight:600; font-size:.8rem; text-transform:uppercase; letter-spacing:.03em; background:var(--papel) }
+  td.t a { color:var(--tinta); text-decoration:none } td.t a:hover { text-decoration:underline }
+  .tag { display:inline-block; font:.75rem/1 var(--mono); padding:3px 6px; border:1px solid var(--borda); border-radius:4px; margin:2px 4px 2px 0; color:var(--fraca) }
+  .vazio { padding:24px; text-align:center; color:var(--fraca) }
+  .nota { font-size:.9rem; color:var(--fraca) } .mais { margin:12px 0; text-align:center }
+  button { font:inherit; padding:8px 14px; border:1px solid var(--borda); border-radius:6px; background:var(--superficie); color:var(--tinta); cursor:pointer }
+  pre.est { white-space:pre-wrap; background:var(--superficie); border:1px solid var(--borda); border-radius:8px; padding:12px; font:.85rem/1.5 var(--mono); max-height:420px; overflow:auto }
+  @media (max-width:640px) { th:nth-child(3),td:nth-child(3) { display:none } }
+</style>
+</head>
+<body>
+<main class="pagina">
+  <h1>Alétheia</h1>
+  <p class="sub">Observatório do Massacre do Carandiru · o que a internet guarda sobre 2 de outubro de 1992, catalogado e medido. <a href="https://github.com/luccas-amorim/aletheia">Método e dados</a>.</p>
+
+  <section class="painel" id="painel" aria-live="polite">
+    <div class="tile"><b id="n-docs">…</b><span>documentos no catálogo</span></div>
+    <div class="tile"><b id="n-dominios">…</b><span>domínios</span></div>
+    <div class="tile"><b id="n-snap">…</b><span>com cópia no Wayback</span></div>
+    <div class="tile"><b id="n-decadas">…</b><span>décadas cobertas</span></div>
+  </section>
+
+  <section>
+    <h2>Catálogo</h2>
+    <div class="filtros">
+      <label>Busca no título <input id="q" type="search" placeholder="júri, indulto, memorial…"></label>
+      <label>Estrato <select id="f-estrato"><option value="">todos</option></select></label>
+      <label>Categoria <select id="f-cat"><option value="">todas</option></select></label>
+      <label>Domínio <select id="f-dom"><option value="">todos</option></select></label>
+      <label>Década <select id="f-dec"><option value="">todas</option></select></label>
+    </div>
+    <p class="nota" id="resumo"></p>
+    <table aria-describedby="resumo">
+      <thead><tr><th>Documento</th><th>Data</th><th>Identificadores</th><th>Cópia</th></tr></thead>
+      <tbody id="linhas"></tbody>
+    </table>
+    <div class="mais"><button id="mais" hidden>Mostrar mais</button></div>
+  </section>
+
+  <section>
+    <h2>Quanto falta</h2>
+    <p class="nota">Estimativa por captura e recaptura entre canais; o número é piso. <a href="docs/estimativa.md">Como ler</a>.</p>
+    <pre class="est" id="estimativa">carregando…</pre>
+  </section>
+
+  <p class="nota">Catálogo sob CC BY 4.0; código sob MIT. O catálogo descreve documentos, não pessoas: <a href="docs/pessoas.md">pedidos de remoção</a>. Nada aqui é consultoria jurídica.</p>
+</main>
+<script>
+(function () {
+  const $ = (s) => document.querySelector(s);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  function csv(texto) {
+    const linhas = []; let campo = "", linha = [], aspas = false;
+    for (let i = 0; i < texto.length; i++) {
+      const c = texto[i];
+      if (aspas) { if (c === '"') { if (texto[i+1] === '"') { campo += '"'; i++; } else aspas = false; } else campo += c; }
+      else if (c === '"') aspas = true;
+      else if (c === ",") { linha.push(campo); campo = ""; }
+      else if (c === "\n" || c === "\r") { if (c === "\r" && texto[i+1] === "\n") i++; linha.push(campo); linhas.push(linha); linha = []; campo = ""; }
+      else campo += c;
+    }
+    if (campo.length || linha.length) { linha.push(campo); linhas.push(linha); }
+    const cab = linhas.shift() || [];
+    return linhas.filter(l => l.length > 1).map(l => Object.fromEntries(cab.map((k, i) => [k, l[i] ?? ""])));
+  }
+  let docs = [], vis = [], mostrando = 0; const PASSO = 100;
+  const decada = (d) => d && /^\d{4}/.test(d) ? d.slice(0, 3) + "0" : "";
+  function opcoes(sel, valores) {
+    const atual = sel.value; sel.innerHTML = '<option value="">' + sel.options[0].text + '</option>';
+    [...valores].filter(Boolean).sort().forEach(v => { const o = document.createElement("option"); o.value = v; o.textContent = v; sel.appendChild(o); });
+    sel.value = atual;
+  }
+  function filtrar() {
+    const q = $("#q").value.trim().toLowerCase(), e = $("#f-estrato").value, c = $("#f-cat").value, d = $("#f-dom").value, dc = $("#f-dec").value;
+    vis = docs.filter(x => (!q || (x.titulo || x.url).toLowerCase().includes(q)) && (!e || x.estrato === e) && (!c || x.categorias.split(";").includes(c)) && (!d || x.dominio === d) && (!dc || decada(x.publicado_em || x.capturado_em) === dc));
+    vis.sort((a, b) => (b.publicado_em || b.capturado_em || "").localeCompare(a.publicado_em || a.capturado_em || ""));
+    mostrando = 0; $("#linhas").innerHTML = ""; mais();
+    $("#resumo").textContent = vis.length === docs.length ? `${docs.length} documentos.` : `${vis.length} de ${docs.length} documentos.`;
+  }
+  function mais() {
+    const fatia = vis.slice(mostrando, mostrando + PASSO); mostrando += fatia.length;
+    if (!docs.length) { $("#linhas").innerHTML = '<tr><td colspan="4" class="vazio">O catálogo ainda está vazio: a primeira varredura não rodou.</td></tr>'; }
+    else if (!vis.length) { $("#linhas").innerHTML = '<tr><td colspan="4" class="vazio">Nada com esses filtros.</td></tr>'; }
+    for (const x of fatia) {
+      const data = x.publicado_em || (x.capturado_em ? x.capturado_em.slice(0,4) + "-" + x.capturado_em.slice(4,6) + "-" + x.capturado_em.slice(6,8) + " (captura)" : "");
+      const tags = x.identificadores.split(";").filter(Boolean).map(t => `<span class="tag">${esc(t)}</span>`).join("");
+      const copia = x.snapshot ? `<a href="${esc(x.snapshot)}" rel="noopener">Wayback</a>` : "";
+      $("#linhas").insertAdjacentHTML("beforeend", `<tr><td class="t"><a href="${esc(x.url)}" rel="noopener">${esc(x.titulo || x.url)}</a><br><span class="nota">${esc(x.dominio)} · ${esc(x.estrato)}</span></td><td>${esc(data)}</td><td>${tags}</td><td>${copia}</td></tr>`);
+    }
+    $("#mais").hidden = mostrando >= vis.length;
+  }
+  fetch("catalogo.csv", {cache: "no-cache"}).then(r => r.ok ? r.text() : "").then(t => {
+    docs = csv(t);
+    $("#n-docs").textContent = docs.length;
+    $("#n-dominios").textContent = new Set(docs.map(x => x.dominio)).size;
+    $("#n-snap").textContent = docs.filter(x => x.snapshot).length;
+    $("#n-decadas").textContent = new Set(docs.map(x => decada(x.publicado_em || x.capturado_em)).filter(Boolean)).size;
+    opcoes($("#f-estrato"), new Set(docs.map(x => x.estrato)));
+    opcoes($("#f-cat"), new Set(docs.flatMap(x => x.categorias.split(";"))));
+    opcoes($("#f-dom"), new Set(docs.map(x => x.dominio)));
+    opcoes($("#f-dec"), new Set(docs.map(x => decada(x.publicado_em || x.capturado_em))));
+    filtrar();
+  }).catch(() => { $("#linhas").innerHTML = '<tr><td colspan="4" class="vazio">Não foi possível ler catalogo.csv.</td></tr>'; });
+  fetch("estimativa.md", {cache: "no-cache"}).then(r => r.ok ? r.text() : "Ainda sem estimativa: a primeira rodada não rodou.").then(t => { $("#estimativa").textContent = t; }).catch(() => { $("#estimativa").textContent = "Ainda sem estimativa."; });
+  ["#q", "#f-estrato", "#f-cat", "#f-dom", "#f-dec"].forEach(s => $(s).addEventListener("input", filtrar));
+  $("#mais").addEventListener("click", mais);
+})();
+</script>
+</body>
+</html>

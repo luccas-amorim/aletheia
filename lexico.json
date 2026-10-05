@@ -1,0 +1,100 @@
+{
+  "id": "carandiru-provisorio",
+  "versao": "2026-10-04",
+  "descricao": "PROVISÓRIO. Serve para a primeira rodada e para testar o encanamento. Será substituído pelo universo léxico da pesquisa.",
+  "termos": [
+    {
+      "chave": "massacre-do-carandiru",
+      "formas": [
+        "massacre do Carandiru",
+        "chacina do Carandiru",
+        "massacre da Casa de Detenção",
+        "Carandiru massacre",
+        "Carandiru prison massacre",
+        "Carandiru"
+      ],
+      "exclusoes": [
+        "Carandiru, o filme",
+        "filme Carandiru",
+        "estação Carandiru",
+        "metrô Carandiru"
+      ],
+      "categorias": [
+        "evento"
+      ],
+      "nota": "O filme de 2003 e a estação de metrô são outros registros; o bairro sozinho para no nível 1 pelo contexto."
+    },
+    {
+      "chave": "casa-de-detencao",
+      "formas": [
+        "Casa de Detenção de São Paulo",
+        "Casa de Detenção",
+        "Pavilhão 9",
+        "Pavilhão Nove"
+      ],
+      "categorias": [
+        "lugar"
+      ]
+    },
+    {
+      "chave": "111-presos",
+      "formas": [
+        "111 presos",
+        "cento e onze presos",
+        "111 detentos",
+        "111 mortos",
+        "111 prisoners"
+      ],
+      "categorias": [
+        "vitimas"
+      ]
+    },
+    {
+      "chave": "julgamento",
+      "formas": [
+        "júri do Carandiru",
+        "julgamento do Carandiru",
+        "julgamentos do Carandiru"
+      ],
+      "categorias": [
+        "desdobramento-juridico"
+      ]
+    },
+    {
+      "chave": "indulto",
+      "formas": [
+        "indulto",
+        "anistia"
+      ],
+      "peso": 0.5,
+      "categorias": [
+        "desdobramento-juridico"
+      ]
+    },
+    {
+      "chave": "memoria",
+      "formas": [
+        "memorial do Carandiru",
+        "Parque da Juventude"
+      ],
+      "categorias": [
+        "memoria"
+      ]
+    }
+  ],
+  "contexto": {
+    "exige_qualquer": [
+      "1992",
+      "massacre",
+      "chacina",
+      "presos",
+      "detentos",
+      "Polícia Militar",
+      "PM",
+      "policiais",
+      "prisoners",
+      "police"
+    ],
+    "nota": "Separa o evento de usos do nome do bairro, do filme e da estação."
+  }
+}

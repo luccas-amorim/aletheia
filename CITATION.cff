@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Se você usar a Alétheia ou o catálogo em pesquisa ou publicação, por favor cite conforme abaixo."
+title: "Alétheia — Observatório do Massacre do Carandiru"
+abstract: >-
+  Catálogo aberto do que a internet guarda sobre o massacre de 2 de outubro de 1992 na
+  Casa de Detenção de São Paulo, descoberto por canais independentes (Wayback Machine,
+  páginas de tópico, GDELT, OpenAlex, Crossref, Internet Archive, Wikipédia), catalogado
+  pelo léxico da pesquisa e com cobertura estimada por captura e recaptura.
+type: dataset
+authors:
+  - family-names: "Amorim"
+    given-names: "Luccas de"
+    orcid: "https://orcid.org/0000-0003-1910-1541"
+# Até a primeira release com DOI (Zenodo), cite pela data do catálogo.
+date-released: "2026-10-05"
+license:
+  - MIT
+  - CC-BY-4.0
+repository-code: "https://github.com/luccas-amorim/aletheia"
+keywords:
+  - Carandiru
+  - memória
+  - violência de Estado
+  - arquivo da web
+  - captura e recaptura
+  - dados abertos

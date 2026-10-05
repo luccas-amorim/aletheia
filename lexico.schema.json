@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/luccas-amorim/aletheia/lexico.schema.json",
+  "title": "Léxico da Alétheia",
+  "description": "Vocabulário declarado em arquivo. O motor valida e aplica; quem mantém os termos é a pesquisa.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "versao", "termos"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1, "description": "Identificador estável do léxico." },
+    "versao": { "type": "string", "minLength": 1, "description": "Data ou versão; vai para cada item da saída e para o catálogo." },
+    "descricao": { "type": "string" },
+    "termos": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["chave", "formas"],
+        "properties": {
+          "chave": { "type": "string", "minLength": 1, "description": "Única no léxico; é o que a saída cita." },
+          "formas": {
+            "type": "array", "minItems": 1,
+            "items": { "type": "string", "minLength": 1 },
+            "description": "Grafias que contam como o termo. Sem distinção de maiúsculas e acentos; palavra inteira. Reticências (…) valem até 60 caracteres quaisquer, sem atravessar ponto e vírgula nem quebra de linha."
+          },
+          "exclusoes": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 },
+            "description": "Expressões que, quando contêm a ocorrência, a anulam."
+          },
+          "peso": { "type": "number", "exclusiveMinimum": 0, "default": 1.0 },
+          "categorias": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 },
+            "description": "Facetas de catalogação (evento, lugar, vitimas, desdobramento-juridico, memoria...). Vão para a saída e para o catálogo junto com a chave."
+          },
+          "nota": { "type": "string" }
+        }
+      }
+    },
+    "contexto": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["exige_qualquer"],
+      "properties": {
+        "exige_qualquer": {
+          "type": "array", "minItems": 1,
+          "items": { "type": "string", "minLength": 1 },
+          "description": "Sem ao menos um destes no texto, o item não passa do nível 1."
+        },
+        "nota": { "type": "string" }
+      }
+    }
+  }
+}
