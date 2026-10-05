@@ -1,0 +1,18 @@
+{
+  "id": "exemplo",
+  "versao": "2026-10-02",
+  "descricao": "Léxico mínimo para ilustrar o formato. Termos reais vivem no repositório de quem os mantém.",
+  "termos": [
+    {
+      "chave": "cp-art-121",
+      "formas": ["homicídio", "art. 121 do Código Penal", "art. 121, CP", "121 do CP"],
+      "exclusoes": ["homicídio culposo na direção"],
+      "peso": 1.0,
+      "nota": "A exclusão aponta para o art. 302 do CTB, que é outro registro."
+    }
+  ],
+  "contexto": {
+    "exige_qualquer": ["pena", "condenação", "absolvição", "denúncia", "recurso"],
+    "nota": "Sem um destes no texto, o item fica no nível 1 e não sobe."
+  }
+}

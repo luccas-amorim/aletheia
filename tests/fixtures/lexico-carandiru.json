@@ -1,0 +1,30 @@
+{
+  "id": "carandiru-amostra",
+  "versao": "2026-10-04",
+  "descricao": "Amostra para testes. O léxico real é mantido pela pesquisa do observatório.",
+  "termos": [
+    {
+      "chave": "massacre-do-carandiru",
+      "formas": ["massacre do Carandiru", "chacina do Carandiru", "Carandiru"],
+      "exclusoes": ["Carandiru, o filme", "estação Carandiru"],
+      "peso": 1.0,
+      "categorias": ["evento"],
+      "nota": "O filme de 2003 e a estação de metrô são outros registros."
+    },
+    {
+      "chave": "casa-de-detencao",
+      "formas": ["Casa de Detenção", "Pavilhão 9"],
+      "categorias": ["lugar"]
+    },
+    {
+      "chave": "indulto",
+      "formas": ["indulto", "perdão"],
+      "peso": 0.5,
+      "categorias": ["desdobramento-juridico"]
+    }
+  ],
+  "contexto": {
+    "exige_qualquer": ["1992", "presos", "policiais", "Polícia Militar", "massacre"],
+    "nota": "Separa o evento de usos do nome do bairro."
+  }
+}
