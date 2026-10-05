@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aletheia"
+version = "0.2.0"
+description = "Alétheia, Observatório do Massacre do Carandiru: descoberta por canais independentes, triagem por léxico, catálogo e estimativa de cobertura."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Luccas de Amorim" }]
+requires-python = ">=3.11"
+# Sem dependências de execução: biblioteca padrão apenas, como os robôs do AtlasPen e do Argos.
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.5"]
+
+[project.scripts]
+aletheia = "aletheia.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["aletheia*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+# Os blocos de código da documentação são prosa alinhada à mão, não código a formatar.
+extend-exclude = ["*.md"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
