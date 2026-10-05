@@ -1,0 +1,87 @@
+name: Rodada
+
+on:
+  schedule:
+    # Segunda-feira, 06:17 de Brasília (09:17 UTC). Durante a varredura do passado, pode
+    # ser trocado por diário ("17 9 * * *"): as fatias já concluídas não são repetidas.
+    - cron: "17 9 * * 1"
+  workflow_dispatch:
+    inputs:
+      desde:
+        description: "AAAA-MM-DD: varredura a partir desta data (vazio: janela do estado)"
+        required: false
+      fonte:
+        description: "Só esta fonte (id do config.json); vazio: todas"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rodada
+  cancel-in-progress: false
+
+jobs:
+  rodar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e .
+      - run: aletheia validar-lexico lexico.json
+      - run: aletheia validar-config config.json
+      - name: Rodada, uma fonte por vez, gravando depois de cada uma
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          CROSSREF_MAILTO: ${{ secrets.CROSSREF_MAILTO }}
+          DESDE: ${{ inputs.desde }}
+          FONTE: ${{ inputs.fonte }}
+        run: |
+          # Uma fonte por vez, com commit depois de cada uma: se o job estourar o tempo,
+          # o que já foi lido não se perde, e a rodada seguinte continua de onde parou,
+          # porque o estado (inclusive o progresso por fatia) foi gravado.
+          git config user.name "aletheia-bot"
+          git config user.email "aletheia-bot@users.noreply.github.com"
+          if [ -n "$FONTE" ]; then
+            fontes="$FONTE"
+          else
+            fontes=$(python -c "import json; print(' '.join(f['id'] for f in json.load(open('config.json'))['fontes']))")
+          fi
+          pior=0; leitura=0
+          for fonte in $fontes; do
+            args=(rodar --config config.json --fonte "$fonte")
+            [ -n "$DESDE" ] && args+=(--desde "$DESDE")
+            set +e
+            aletheia -v "${args[@]}"
+            codigo=$?
+            set -e
+            # 0: nada a ler; 3: há itens que pedem leitura; 2: erro (a fonte fica marcada).
+            [ "$codigo" -eq 2 ] && pior=2
+            [ "$codigo" -eq 3 ] && leitura=1
+            git add catalogo.csv vistas.csv estado saidas
+            if ! git diff --cached --quiet; then
+              git commit -q -m "Rodada $(date -u +%Y-%m-%d): $fonte"
+              git pull -q --rebase origin "${GITHUB_REF_NAME}" || true
+              git push -q
+            fi
+          done
+          echo "codigo=$pior" >> "$GITHUB_ENV"
+          echo "leitura=$leitura" >> "$GITHUB_ENV"
+      - run: aletheia estimar --config config.json
+      - name: Gravar a estimativa
+        run: |
+          git add estimativa.md
+          if ! git diff --cached --quiet; then
+            git commit -q -m "Estimativa $(date -u +%Y-%m-%d)"
+            git pull -q --rebase origin "${GITHUB_REF_NAME}" || true
+            git push -q
+          fi
+      - if: env.leitura == '1'
+        run: echo "Há itens que pedem leitura: ver saidas/*/relatorio-resumo.md e pede-juizo.jsonl."
+      - if: env.codigo == '2'
+        run: |
+          echo "Ao menos uma fonte terminou com erro (código 2). Ver saidas/*/relatorio-resumo.md."
+          exit 1
