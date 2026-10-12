@@ -1,0 +1,25 @@
+{
+ "fonte": "wayback:tjsp",
+ "ultima_rodada": "2026-10-12",
+ "vistos": {},
+ "pendentes": {
+  "http://www.tjsp.jus.br/Shared/Email/Default.aspx?urlNoticia=http%3a%2f%2fwww.tjsp.jus.br%2fInstitucional%2fCanaisComunicacao%2fNoticias%2fNoticia.aspx%3fId%3d19254%26ArticleId%3d19254&TituloNews=PMs+acusados+de+matar+presos+no+caso+Carandiru+s%c3%a3o+condenados+a+624+anos+de+pris%c3%a3o": {
+   "ref": {
+    "fonte": "wayback:tjsp",
+    "id_na_fonte": "http://www.tjsp.jus.br/Shared/Email/Default.aspx?urlNoticia=http%3a%2f%2fwww.tjsp.jus.br%2fInstitucional%2fCanaisComunicacao%2fNoticias%2fNoticia.aspx%3fId%3d19254%26ArticleId%3d19254&TituloNews=PMs+acusados+de+matar+presos+no+caso+Carandiru+s%c3%a3o+condenados+a+624+anos+de+pris%c3%a3o",
+    "url": "https://web.archive.org/web/20130823045634id_/http://www.tjsp.jus.br/Shared/Email/Default.aspx?urlNoticia=http%3a%2f%2fwww.tjsp.jus.br%2fInstitucional%2fCanaisComunicacao%2fNoticias%2fNoticia.aspx%3fId%3d19254%26ArticleId%3d19254&TituloNews=PMs+acusados+de+matar+presos+no+caso+Carandiru+s%c3%a3o+condenados+a+624+anos+de+pris%c3%a3o",
+    "titulo": "http://www.tjsp.jus.br/Shared/Email/Default.aspx?urlNoticia=http%3a%2f%2fwww.tjsp.jus.br%2fInstitucional%2fCanaisComunicacao%2fNoticias%2fNoticia.aspx%3fId%3d19254%26ArticleId%3d19254&TituloNews=PMs+acusados+de+matar+presos+no+caso+Carandiru+s%c3%a3o+condenados+a+624+anos+de+pris%c3%a3o",
+    "publicado_em": "2013-08-23",
+    "dados": {
+     "original": "http://www.tjsp.jus.br/Shared/Email/Default.aspx?urlNoticia=http%3a%2f%2fwww.tjsp.jus.br%2fInstitucional%2fCanaisComunicacao%2fNoticias%2fNoticia.aspx%3fId%3d19254%26ArticleId%3d19254&TituloNews=PMs+acusados+de+matar+presos+no+caso+Carandiru+s%c3%a3o+condenados+a+624+anos+de+pris%c3%a3o",
+     "timestamp": "20130823045634",
+     "snapshot": "https://web.archive.org/web/20130823045634id_/http://www.tjsp.jus.br/Shared/Email/Default.aspx?urlNoticia=http%3a%2f%2fwww.tjsp.jus.br%2fInstitucional%2fCanaisComunicacao%2fNoticias%2fNoticia.aspx%3fId%3d19254%26ArticleId%3d19254&TituloNews=PMs+acusados+de+matar+presos+no+caso+Carandiru+s%c3%a3o+condenados+a+624+anos+de+pris%c3%a3o",
+     "prefixo": "tjsp.jus.br"
+    }
+   },
+   "motivo": "reprovado_sentinela",
+   "tentativas": 1
+  }
+ },
+ "progresso": {}
+}

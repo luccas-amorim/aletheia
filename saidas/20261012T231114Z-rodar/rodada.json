@@ -1,0 +1,24 @@
+{
+ "id": "20261012T231114Z",
+ "modo": "rodar",
+ "motor": "0.2.0",
+ "lexico": {
+  "id": "carandiru-provisorio",
+  "versao": "2026-10-04"
+ },
+ "inicio": "2026-10-12T23:11:14+00:00",
+ "fim": "2026-10-12T23:14:53+00:00",
+ "desde": {
+  "wayback:tjsp": "1992-10-02 (efetivo 1996-01-01)"
+ },
+ "falhas_de_fonte": {},
+ "incompletas": {},
+ "pede_leitura": false,
+ "contagens": {
+  "situacao": {
+   "reprovado_sentinela": 1
+  },
+  "motivo": {}
+ },
+ "codigo_saida": 0
+}
