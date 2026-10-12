@@ -1,0 +1,31 @@
+{
+ "fonte": "wayback:stj",
+ "ultima_rodada": "2026-10-12",
+ "vistos": {
+  "http://www.stj.jus.br:80/sites/STJ/default/pt_BR/Comunica%C3%A7%C3%A3o/noticias/Not%C3%ADcias/Tribunal-paulista-dever%C3%A1-analisar-omiss%C3%B5es-apontadas-pelo-MP-no-caso-do-massacre-do-Carandiru": "7b901803259d82f4e252a18894f7a5b5d063777acb6e2184cb99a69f386abbbe",
+  "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias-antigas/2018/2018-04-06_18-26_Tribunal-paulista-devera-analisar-omissoes-apontadas-pelo-MP-no-caso-do-massacre-do-Carandiru.aspx": "13072ab99574d2267a385e8dbfbbdea5c23e09e9afb9dddf72655ae6049d3b42",
+  "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/09062021-Ministro-restabelece-condenacoes-do-juri-por-massacre-do-Carandiru.aspx": "c06989c7852731b93fe2d7560ee14d2ca4b9263c82a804bac2336b88e0de289e",
+  "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/12082021-Quinta-Turma-mantem-decisao-que-restabeleceu-condenacoes-do-juri-por-massacre-do-Carandiru.aspx": "7278f855671c4f74c626f955f1b85a9a180bdbd0334bc5bb7d001194c66eff6a",
+  "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/14062021-STJN-destaca-decisao-que-restabeleceu-condenacoes-por-massacre-no-Carandiru.aspx": "76646ade1d4edd167dca6b4fc964ed8bdc1d531cf100605ef011ee6250a410eb"
+ },
+ "pendentes": {
+  "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/12082021-Quinta-Turma-mantem-decisao-que-restabeleceu-condenacoes-do-juri-por-massacre-do-Carandiru.aspx%3E": {
+   "ref": {
+    "fonte": "wayback:stj",
+    "id_na_fonte": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/12082021-Quinta-Turma-mantem-decisao-que-restabeleceu-condenacoes-do-juri-por-massacre-do-Carandiru.aspx%3E",
+    "url": "https://web.archive.org/web/20240808203148id_/https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/12082021-Quinta-Turma-mantem-decisao-que-restabeleceu-condenacoes-do-juri-por-massacre-do-Carandiru.aspx%3E",
+    "titulo": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/12082021-Quinta-Turma-mantem-decisao-que-restabeleceu-condenacoes-do-juri-por-massacre-do-Carandiru.aspx%3E",
+    "publicado_em": "2024-08-08",
+    "dados": {
+     "original": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/12082021-Quinta-Turma-mantem-decisao-que-restabeleceu-condenacoes-do-juri-por-massacre-do-Carandiru.aspx%3E",
+     "timestamp": "20240808203148",
+     "snapshot": "https://web.archive.org/web/20240808203148id_/https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/12082021-Quinta-Turma-mantem-decisao-que-restabeleceu-condenacoes-do-juri-por-massacre-do-Carandiru.aspx%3E",
+     "prefixo": "stj.jus.br"
+    }
+   },
+   "motivo": "reprovado_sentinela",
+   "tentativas": 1
+  }
+ },
+ "progresso": {}
+}
