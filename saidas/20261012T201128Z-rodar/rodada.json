@@ -1,0 +1,30 @@
+{
+ "id": "20261012T201128Z",
+ "modo": "rodar",
+ "motor": "0.2.0",
+ "lexico": {
+  "id": "carandiru-provisorio",
+  "versao": "2026-10-04"
+ },
+ "inicio": "2026-10-12T20:11:28+00:00",
+ "fim": "2026-10-12T21:08:00+00:00",
+ "desde": {
+  "wayback:ponte": "1992-10-02 (efetivo 1996-01-01)"
+ },
+ "falhas_de_fonte": {},
+ "incompletas": {},
+ "pede_leitura": true,
+ "contagens": {
+  "situacao": {
+   "reprovado_sentinela": 13,
+   "triado": 122
+  },
+  "motivo": {
+   "aceito": 90,
+   "pede_juizo": 1,
+   "sem_contexto": 1,
+   "sem_termo": 30
+  }
+ },
+ "codigo_saida": 3
+}
