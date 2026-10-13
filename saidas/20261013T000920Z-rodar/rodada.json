@@ -1,0 +1,32 @@
+{
+ "id": "20261013T000920Z",
+ "modo": "rodar",
+ "motor": "0.2.0",
+ "lexico": {
+  "id": "carandiru-provisorio",
+  "versao": "2026-10-04"
+ },
+ "inicio": "2026-10-13T00:09:20+00:00",
+ "fim": "2026-10-13T00:26:29+00:00",
+ "desde": {
+  "topico:agenciabrasil": "1992-10-02"
+ },
+ "falhas_de_fonte": {},
+ "incompletas": {},
+ "pede_leitura": true,
+ "contagens": {
+  "situacao": {
+   "bloqueado_robots": 1,
+   "falha_captura": 45,
+   "reprovado_sentinela": 2,
+   "triado": 104
+  },
+  "motivo": {
+   "aceito": 26,
+   "pede_juizo": 1,
+   "sem_contexto": 1,
+   "sem_termo": 76
+  }
+ },
+ "codigo_saida": 3
+}
