@@ -1,0 +1,30 @@
+{
+ "id": "20261019T194835Z",
+ "modo": "rodar",
+ "motor": "0.2.0",
+ "lexico": {
+  "id": "carandiru-provisorio",
+  "versao": "2026-10-04"
+ },
+ "inicio": "2026-10-19T19:48:35+00:00",
+ "fim": "2026-10-19T19:48:36+00:00",
+ "desde": {
+  "ia:carandiru": "1992-10-02"
+ },
+ "falhas_de_fonte": {},
+ "incompletas": {},
+ "pede_leitura": true,
+ "contagens": {
+  "situacao": {
+   "triado": 47
+  },
+  "motivo": {
+   "aceito": 7,
+   "pede_juizo": 2,
+   "sem_contexto": 29,
+   "sem_termo": 8,
+   "so_exclusao": 1
+  }
+ },
+ "codigo_saida": 3
+}
