@@ -1,0 +1,24 @@
+{
+ "id": "20261019T173541Z",
+ "modo": "rodar",
+ "motor": "0.2.0",
+ "lexico": {
+  "id": "carandiru-provisorio",
+  "versao": "2026-10-04"
+ },
+ "inicio": "2026-10-19T17:35:41+00:00",
+ "fim": "2026-10-19T17:38:26+00:00",
+ "desde": {
+  "wayback:unicamp": "1992-10-02 (efetivo 1996-01-01)"
+ },
+ "falhas_de_fonte": {
+  "wayback:unicamp": "listagem: ErroColeta: GET https://web.archive.org/cdx/search/cdx?url=repositorio.unicamp.br%2F&matchType=prefix&filter=original%3A%28%3Fi%29.%2Acarandiru.%2A&filter=statuscode%3A200&filter=mimetype%3Atext%2Fhtml&collapse=urlkey&output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&from=20060101&to=20061231&limit=500&showResumeKey=<redigido> falhou após 4 tentativas: URLError: <urlopen error [Errno 111] Connection refused>"
+ },
+ "incompletas": {},
+ "pede_leitura": false,
+ "contagens": {
+  "situacao": {},
+  "motivo": {}
+ },
+ "codigo_saida": 2
+}
