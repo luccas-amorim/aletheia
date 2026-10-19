@@ -1,0 +1,32 @@
+{
+ "id": "20261019T175309Z",
+ "modo": "rodar",
+ "motor": "0.2.0",
+ "lexico": {
+  "id": "carandiru-provisorio",
+  "versao": "2026-10-04"
+ },
+ "inicio": "2026-10-19T17:53:09+00:00",
+ "fim": "2026-10-19T18:18:52+00:00",
+ "desde": {
+  "wikipedia:verbetes": "1992-10-02"
+ },
+ "falhas_de_fonte": {},
+ "incompletas": {},
+ "pede_leitura": true,
+ "contagens": {
+  "situacao": {
+   "bloqueado_robots": 16,
+   "falha_captura": 16,
+   "reprovado_sentinela": 1,
+   "triado": 33
+  },
+  "motivo": {
+   "aceito": 21,
+   "pede_juizo": 7,
+   "sem_contexto": 1,
+   "sem_termo": 4
+  }
+ },
+ "codigo_saida": 3
+}
