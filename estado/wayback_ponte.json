@@ -141,7 +141,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   },
   "http://ponte.org:80/magistrado-que-anulou-juris-do-carandiru-condenou-rapaz-por-furto-de-8-chocolates/screen-shot-2016-10-03-at-4-10-44-pm/": {
    "ref": {
@@ -158,7 +158,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   },
   "http://ponte.org:80/magistrado-que-anulou-juris-do-carandiru-condenou-rapaz-por-furto-de-8-chocolates/screen-shot-2016-10-03-at-4-11-36-pm/": {
    "ref": {
@@ -175,7 +175,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   },
   "https://ponte.org/cdp-pinheiros-o-novo-carandiru-de-sao-paulo/20160502padu-cdppinheiros/": {
    "ref": {
@@ -192,7 +192,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   },
   "https://ponte.org/detentos-que-entregaram-armas-sairam-ilesos-diz-relator-do-processo-do-massacre-do-carandiru/printsartori/": {
    "ref": {
@@ -208,8 +208,8 @@
      "prefixo": "ponte.org"
     }
    },
-   "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "motivo": "falha_captura",
+   "tentativas": 2
   },
   "https://ponte.org/detentos-que-entregaram-armas-sairam-ilesos-diz-relator-do-processo-do-massacre-do-carandiru/printsartori2/": {
    "ref": {
@@ -226,7 +226,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   },
   "https://ponte.org/detentos-que-entregaram-armas-sairam-ilesos-diz-relator-do-processo-do-massacre-do-carandiru/sartori3/": {
    "ref": {
@@ -243,7 +243,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   },
   "https://ponte.org/detentos-que-entregaram-armas-sairam-ilesos-diz-relator-do-processo-do-massacre-do-carandiru/sartori4/": {
    "ref": {
@@ -260,7 +260,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   },
   "https://ponte.org/detentos-que-entregaram-armas-sairam-ilesos-diz-relator-do-processo-do-massacre-do-carandiru/sartori5/": {
    "ref": {
@@ -277,7 +277,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   },
   "https://ponte.org/filha-de-vitima-do-massacre-do-carandiru-processa-sp-por-posicao-de-desembargador/screen-shot-2016-10-03-at-7-23-45-pm/": {
    "ref": {
@@ -294,7 +294,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   },
   "https://ponte.org/mp-corre-contra-o-relogio-para-tentar-punir-autores-de-massacre-do-carandiru/mpsp-carandiru-2/": {
    "ref": {
@@ -311,7 +311,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   },
   "https://ponte.org/mp-recorre-ao-stj-e-stf-contra-anulacao-do-juri-do-massacre-carandiru/sartori1-2/": {
    "ref": {
@@ -327,8 +327,8 @@
      "prefixo": "ponte.org"
     }
    },
-   "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "motivo": "falha_captura",
+   "tentativas": 2
   },
   "https://ponte.org/mp-recorre-ao-stj-e-stf-contra-anulacao-do-juri-do-massacre-carandiru/sartori4-2/": {
    "ref": {
@@ -345,7 +345,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   }
  },
  "progresso": {}
