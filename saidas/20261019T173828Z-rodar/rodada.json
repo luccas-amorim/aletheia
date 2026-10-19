@@ -1,0 +1,24 @@
+{
+ "id": "20261019T173828Z",
+ "modo": "rodar",
+ "motor": "0.2.0",
+ "lexico": {
+  "id": "carandiru-provisorio",
+  "versao": "2026-10-04"
+ },
+ "inicio": "2026-10-19T17:38:28+00:00",
+ "fim": "2026-10-19T17:42:58+00:00",
+ "desde": {
+  "wayback:scielo": "1992-10-02 (efetivo 1996-01-01)"
+ },
+ "falhas_de_fonte": {
+  "wayback:scielo": "listagem: ErroColeta: GET https://web.archive.org/cdx/search/cdx?url=scielo.br&matchType=domain&filter=original%3A%28%3Fi%29.%2Acarandiru.%2A&filter=statuscode%3A200&filter=mimetype%3Atext%2Fhtml&collapse=urlkey&output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&from=19960101&limit=500&showResumeKey=<redigido> falhou após 4 tentativas: HTTP 504"
+ },
+ "incompletas": {},
+ "pede_leitura": false,
+ "contagens": {
+  "situacao": {},
+  "motivo": {}
+ },
+ "codigo_saida": 2
+}
