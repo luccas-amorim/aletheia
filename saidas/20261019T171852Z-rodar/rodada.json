@@ -1,0 +1,30 @@
+{
+ "id": "20261019T171852Z",
+ "modo": "rodar",
+ "motor": "0.2.0",
+ "lexico": {
+  "id": "carandiru-provisorio",
+  "versao": "2026-10-04"
+ },
+ "inicio": "2026-10-19T17:18:52+00:00",
+ "fim": "2026-10-19T17:25:56+00:00",
+ "desde": {
+  "wayback:conjur": "2026-10-05"
+ },
+ "falhas_de_fonte": {
+  "wayback:conjur": "listagem: ErroColeta: GET https://web.archive.org/cdx/search/cdx?url=conjur.com.br&matchType=domain&filter=original%3A%28%3Fi%29.%2Acarandiru.%2A&filter=statuscode%3A200&filter=mimetype%3Atext%2Fhtml&collapse=urlkey&output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&from=20261005&limit=500&showResumeKey=<redigido> falhou após 4 tentativas: URLError: <urlopen error [Errno 111] Connection refused>"
+ },
+ "incompletas": {},
+ "pede_leitura": true,
+ "contagens": {
+  "situacao": {
+   "falha_captura": 1,
+   "reprovado_sentinela": 14,
+   "triado": 1
+  },
+  "motivo": {
+   "aceito": 1
+  }
+ },
+ "codigo_saida": 2
+}

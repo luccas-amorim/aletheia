@@ -59,6 +59,7 @@
   "https://www.conjur.com.br/2013-abr-17/jurado-passar-mal-julgamento-carandiru-retomado-nesta-quinta": "ca621ee58bc1060e4341364d8fc45a91b63afd6f3ba17105c528e582bba90ee4",
   "https://www.conjur.com.br/2013-ago-14/notas-curtas-associacao-pms-ajudara-pagar-defesa-reus-carandiru": "8f034d43c98b56b8401933c4ab38039663f08ec05f01c265c225aa4a064896f5",
   "https://www.conjur.com.br/2016-dez-19/cnj-investigara-ivan-sartori-voto-massacre-carandiru/c/1/391691": "9029e815b722e69acbd74213372b61379349ab7c0dc13d7cea07771afdcdb705",
+  "https://www.conjur.com.br/2016-dez-19/cnj-investigara-ivan-sartori-voto-massacre-carandiru/c/1/391715": "9029e815b722e69acbd74213372b61379349ab7c0dc13d7cea07771afdcdb705",
   "https://www.conjur.com.br/2016-dez-19/cnj-investigara-ivan-sartori-voto-massacre-carandiru/c/1/391722": "9029e815b722e69acbd74213372b61379349ab7c0dc13d7cea07771afdcdb705",
   "https://www.conjur.com.br/2016-dez-19/cnj-investigara-ivan-sartori-voto-massacre-carandiru?imprimir=1": "3fb618eba04940eb3888e8c577310b07e9d6d5ac8e55c22fddb2174c1a4b01bc",
   "https://www.conjur.com.br/2016-out-01/ranking-noticias-anulacao-julgamento-massacre-carandiru-foi-destaque/?action=genpdf&id=458558": "e3b64141424d2d3e906f3ec65495e17c8b692e025a4f7b7eae178b12c741b0eb",
@@ -153,23 +154,6 @@
   "https://www.conjur.com.br/leitor/login?from=%2F2023-jan-17%2Ftj-sp-suspende-julgamento-policiais-carandiru-analise-oe": "5ec4f2083fadccdd270d6392561c7a24a5ac2f1435e60d47377ec9ccbc1c78bd"
  },
  "pendentes": {
-  "https://www.conjur.com.br/2016-dez-19/cnj-investigara-ivan-sartori-voto-massacre-carandiru/c/1/391715": {
-   "ref": {
-    "fonte": "wayback:conjur",
-    "id_na_fonte": "https://www.conjur.com.br/2016-dez-19/cnj-investigara-ivan-sartori-voto-massacre-carandiru/c/1/391715",
-    "url": "https://web.archive.org/web/20200516115652id_/https://www.conjur.com.br/2016-dez-19/cnj-investigara-ivan-sartori-voto-massacre-carandiru/c/1/391715",
-    "titulo": "https://www.conjur.com.br/2016-dez-19/cnj-investigara-ivan-sartori-voto-massacre-carandiru/c/1/391715",
-    "publicado_em": "2020-05-16",
-    "dados": {
-     "original": "https://www.conjur.com.br/2016-dez-19/cnj-investigara-ivan-sartori-voto-massacre-carandiru/c/1/391715",
-     "timestamp": "20200516115652",
-     "snapshot": "https://web.archive.org/web/20200516115652id_/https://www.conjur.com.br/2016-dez-19/cnj-investigara-ivan-sartori-voto-massacre-carandiru/c/1/391715",
-     "prefixo": "conjur.com.br"
-    }
-   },
-   "motivo": "falha_captura",
-   "tentativas": 1
-  },
   "https://www.conjur.com.br/leitor/login?from=%2F2018-abr-06%2Fstj-manda-tj-sp-julgar-embargos-carandiru": {
    "ref": {
     "fonte": "wayback:conjur",
@@ -185,7 +169,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   },
   "https://www.conjur.com.br/leitor/login?from=%2F2018-mai-22%2Fdesembargador-carandiru-nao-obriga-estado-indenizar": {
    "ref": {
@@ -202,7 +186,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   },
   "https://www.conjur.com.br/leitor/login?from=%2F2019-out-22%2Fcnj-nao-ve-falta-desembargador-anulacao-juri-carandiru2": {
    "ref": {
@@ -219,7 +203,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   },
   "https://www.conjur.com.br/leitor/login?from=%2F2021-ago-11%2Fstj-mantem-condenacao-pms-massacre-carandiru": {
    "ref": {
@@ -236,7 +220,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   },
   "https://www.conjur.com.br/leitor/login?from=%2F2021-ago-16%2Fausencia-pericia-ampara-decisao-jurados-carandiru-stj": {
    "ref": {
@@ -253,7 +237,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   },
   "https://www.conjur.com.br/leitor/login?from=%2F2021-jun-13%2Fdemora-julgamento-massacre-carandiru": {
    "ref": {
@@ -270,7 +254,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   },
   "https://www.conjur.com.br/leitor/login?from=%2F2022-ago-04%2Fbarroso-mantem-condenacao-policiais-massacre-carandiru": {
    "ref": {
@@ -287,7 +271,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   },
   "https://www.conjur.com.br/leitor/login?from=%2F2022-nov-23%2Ftj-sp-julga-recurso-adia-outros-dois-carandiru": {
    "ref": {
@@ -304,7 +288,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   },
   "https://www.conjur.com.br/leitor/login?from=/2016-dez-19/cnj-investigara-ivan-sartori-voto-massacre-carandiru": {
    "ref": {
@@ -321,7 +305,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   },
   "https://www.conjur.com.br/leitor/login?from=/2016-nov-01/pms-carandiru-tiveram-direitos-violados-dizem-advogados": {
    "ref": {
@@ -338,7 +322,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   },
   "https://www.conjur.com.br/leitor/login?from=/2016-out-11/advogados-atuaram-carandiru-serao-homenageados": {
    "ref": {
@@ -354,8 +338,8 @@
      "prefixo": "conjur.com.br"
     }
    },
-   "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "motivo": "falha_captura",
+   "tentativas": 2
   },
   "https://www.conjur.com.br/leitor/login?from=/2016-set-27/tj-sp-anula-condenacoes-policiais-massacre-carandiru": {
    "ref": {
@@ -372,7 +356,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   },
   "https://www.conjur.com.br/leitor/login?from=/2017-abr-11/tj-sp-nega-absolvicao-pms-condenados-massacre-carandiru": {
    "ref": {
@@ -389,7 +373,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   },
   "https://www.conjur.com.br/leitor/login?from=/2017-abr-11/tj-sp-retoma-carandiru-relator-nega-absolvicao-policiais": {
    "ref": {
@@ -406,7 +390,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   },
   "https://www.conjur.com.br/leitor/login?from=/2017-fev-14/defensoria-retirar-justica-paulista-juri-carandiru": {
    "ref": {
@@ -423,7 +407,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   }
  },
  "progresso": {}
