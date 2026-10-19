@@ -3,5 +3,9 @@
  "ultima_rodada": null,
  "vistos": {},
  "pendentes": {},
- "progresso": {}
+ "progresso": {
+  "concluidas": [
+   "g1.globo.com/sp/sao-paulo/|1996"
+  ]
+ }
 }
