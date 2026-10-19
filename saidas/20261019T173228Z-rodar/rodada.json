@@ -1,0 +1,22 @@
+{
+ "id": "20261019T173228Z",
+ "modo": "rodar",
+ "motor": "0.2.0",
+ "lexico": {
+  "id": "carandiru-provisorio",
+  "versao": "2026-10-04"
+ },
+ "inicio": "2026-10-19T17:32:28+00:00",
+ "fim": "2026-10-19T17:33:37+00:00",
+ "desde": {
+  "wayback:mpsp": "2026-10-05"
+ },
+ "falhas_de_fonte": {},
+ "incompletas": {},
+ "pede_leitura": false,
+ "contagens": {
+  "situacao": {},
+  "motivo": {}
+ },
+ "codigo_saida": 0
+}
