@@ -1,0 +1,22 @@
+{
+ "id": "20261019T202525Z",
+ "modo": "rodar",
+ "motor": "0.2.0",
+ "lexico": {
+  "id": "carandiru-provisorio",
+  "versao": "2026-10-04"
+ },
+ "inicio": "2026-10-19T20:25:25+00:00",
+ "fim": "2026-10-19T20:25:25+00:00",
+ "desde": {
+  "lista:hemeroteca": "1992-10-02"
+ },
+ "falhas_de_fonte": {},
+ "incompletas": {},
+ "pede_leitura": false,
+ "contagens": {
+  "situacao": {},
+  "motivo": {}
+ },
+ "codigo_saida": 0
+}
