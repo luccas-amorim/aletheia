@@ -1,0 +1,32 @@
+{
+ "id": "20261019T184015Z",
+ "modo": "rodar",
+ "motor": "0.2.0",
+ "lexico": {
+  "id": "carandiru-provisorio",
+  "versao": "2026-10-04"
+ },
+ "inicio": "2026-10-19T18:40:15+00:00",
+ "fim": "2026-10-19T18:40:17+00:00",
+ "desde": {
+  "openalex:carandiru": "1992-10-02"
+ },
+ "falhas_de_fonte": {
+  "openalex:carandiru": "listagem: ErroColeta: GET https://api.openalex.org/works?search=carandiru&filter=from_publication_date%3A1992-10-02&per-page=200&cursor=IlsxNS4yNTE0MDMsIDE3MzM4NzUyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQwNTMxNDk1OCddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cprimary_location%2Copen_access -> HTTP 401: {\"error\":\"API key required for cursor paging\",\"message\":\"Paging past the first page with cursor= needs a free API key. Get one in a minute at https://openalex.org/settings/api\"}"
+ },
+ "incompletas": {},
+ "pede_leitura": true,
+ "contagens": {
+  "situacao": {
+   "triado": 200
+  },
+  "motivo": {
+   "aceito": 66,
+   "pede_juizo": 32,
+   "sem_contexto": 85,
+   "sem_termo": 2,
+   "so_exclusao": 15
+  }
+ },
+ "codigo_saida": 2
+}
