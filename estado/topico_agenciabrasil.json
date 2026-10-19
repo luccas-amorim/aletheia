@@ -121,7 +121,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "agenciabrasil.ebc.com.br/educacao/questoes-enem": {
    "ref": {
@@ -135,7 +135,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   },
   "agenciabrasil.ebc.com.br/eleicoes2016": {
    "ref": {
@@ -149,7 +149,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "agenciabrasil.ebc.com.br/especial/2016-11/mariana-um-ano-apos-maior-tragedia-ambiental-do-brasil": {
    "ref": {
@@ -163,7 +163,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "agenciabrasil.ebc.com.br/especial/2016-11/um-ano-de-zika-mulheres-no-centro-da-epidemia": {
    "ref": {
@@ -177,7 +177,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "agenciabrasil.ebc.com.br/especial/2016-12/novos-horizontes-para-chapada-dos-veadeiros": {
    "ref": {
@@ -191,7 +191,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "agenciabrasil.ebc.com.br/especial/2016-12/retrospectiva-2016": {
    "ref": {
@@ -205,7 +205,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "agenciabrasil.ebc.com.br/geral/noticia/2016-09/tjsp-anula-condenacoes-de-po</body></html>": {
    "ref": {
@@ -219,7 +219,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "agenciabrasil.ebc.com.br/guia-modalidades-paralimpicas": {
    "ref": {
@@ -233,7 +233,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/acessoainformacao": {
    "ref": {
@@ -247,7 +247,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/acessoainformacao/a-lei": {
    "ref": {
@@ -261,7 +261,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/acessoainformacao/acoes": {
    "ref": {
@@ -275,7 +275,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/acessoainformacao/auditorias": {
    "ref": {
@@ -289,7 +289,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/acessoainformacao/informacoes-classificadas": {
    "ref": {
@@ -303,7 +303,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/acessoainformacao/institucional": {
    "ref": {
@@ -317,7 +317,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/acessoainformacao/institucional/telefones-e-enderecos": {
    "ref": {
@@ -331,7 +331,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/acessoainformacao/participacaosocial": {
    "ref": {
@@ -345,7 +345,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/acessoainformacao/perguntas-frequentes": {
    "ref": {
@@ -359,7 +359,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/acessoainformacao/planilha-de-execucao-musical": {
    "ref": {
@@ -373,7 +373,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/acessoainformacao/sic": {
    "ref": {
@@ -387,7 +387,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/eleicoes2018": {
    "ref": {
@@ -401,7 +401,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/governanca": {
    "ref": {
@@ -415,7 +415,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/governanca-corporativa": {
    "ref": {
@@ -429,7 +429,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/institucional": {
    "ref": {
@@ -443,7 +443,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/institucional/acessoainformacao/institucional": {
    "ref": {
@@ -457,7 +457,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/institucional/acessoainformacao/institucional/telefones-e-enderecos": {
    "ref": {
@@ -471,7 +471,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/institucional/contato": {
    "ref": {
@@ -485,7 +485,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/institucional/governanca-corporativa": {
    "ref": {
@@ -499,7 +499,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/institucional/governanca-corporativa/balanco-social": {
    "ref": {
@@ -513,7 +513,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/institucional/sobre-a-ebc": {
    "ref": {
@@ -527,7 +527,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/institucional/sobre-a-ebc/sala-de-imprensa": {
    "ref": {
@@ -541,7 +541,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/lei-de-acesso-a-informacao/convenios-transferencias": {
    "ref": {
@@ -555,7 +555,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/lei-de-acesso-a-informacao/custos": {
    "ref": {
@@ -569,7 +569,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/lei-de-acesso-a-informacao/demonstracoes-contabeis": {
    "ref": {
@@ -583,7 +583,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/lei-de-acesso-a-informacao/empregados-ebc": {
    "ref": {
@@ -597,7 +597,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/lei-de-acesso-a-informacao/gestao-patrimonial": {
    "ref": {
@@ -611,7 +611,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/lei-de-acesso-a-informacao/licitacoes-e-contratos-0": {
    "ref": {
@@ -625,7 +625,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/lei-de-acesso-a-informacao/receitas-e-despesas": {
    "ref": {
@@ -639,7 +639,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/servicos-e-negocios/a-voz-do-brasil": {
    "ref": {
@@ -653,7 +653,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/servicos-e-negocios/publicidade-legal": {
    "ref": {
@@ -667,7 +667,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/servicos-negocios": {
    "ref": {
@@ -681,7 +681,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/sobre-a-ebc": {
    "ref": {
@@ -695,7 +695,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/sobre-a-ebc/a-empresa": {
    "ref": {
@@ -709,7 +709,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/sobre-a-ebc/diretoria": {
    "ref": {
@@ -723,7 +723,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/sobre-a-ebc/ouvidoria": {
    "ref": {
@@ -737,7 +737,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/sobre-a-ebc/quem-e-quem": {
    "ref": {
@@ -751,7 +751,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/sobre-a-ebc/sala-de-imprensa": {
    "ref": {
@@ -765,7 +765,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   }
  },
  "progresso": {}

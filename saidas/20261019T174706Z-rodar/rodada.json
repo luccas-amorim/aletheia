@@ -1,0 +1,27 @@
+{
+ "id": "20261019T174706Z",
+ "modo": "rodar",
+ "motor": "0.2.0",
+ "lexico": {
+  "id": "carandiru-provisorio",
+  "versao": "2026-10-04"
+ },
+ "inicio": "2026-10-19T17:47:06+00:00",
+ "fim": "2026-10-19T17:53:07+00:00",
+ "desde": {
+  "topico:agenciabrasil": "2026-10-06"
+ },
+ "falhas_de_fonte": {
+  "topico:agenciabrasil": "listagem: ErroColeta: GET https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fagenciabrasil.ebc.com.br%2Ftags%2Fcarandiru&matchType=exact&filter=statuscode%3A200&collapse=timestamp%3A4&output=json&fl=timestamp%2Coriginal&from=20261006 falhou após 4 tentativas: URLError: <urlopen error [Errno 111] Connection refused>"
+ },
+ "incompletas": {},
+ "pede_leitura": false,
+ "contagens": {
+  "situacao": {
+   "falha_captura": 45,
+   "reprovado_sentinela": 2
+  },
+  "motivo": {}
+ },
+ "codigo_saida": 2
+}
