@@ -3,5 +3,9 @@
  "ultima_rodada": null,
  "vistos": {},
  "pendentes": {},
- "progresso": {}
+ "progresso": {
+  "concluidas": [
+   "noticias.uol.com.br/cotidiano/|1996"
+  ]
+ }
 }
