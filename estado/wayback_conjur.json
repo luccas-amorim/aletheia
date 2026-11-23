@@ -169,7 +169,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 2
+   "tentativas": 3
   },
   "https://www.conjur.com.br/leitor/login?from=%2F2018-mai-22%2Fdesembargador-carandiru-nao-obriga-estado-indenizar": {
    "ref": {
@@ -186,7 +186,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 2
+   "tentativas": 3
   },
   "https://www.conjur.com.br/leitor/login?from=%2F2019-out-22%2Fcnj-nao-ve-falta-desembargador-anulacao-juri-carandiru2": {
    "ref": {
@@ -203,7 +203,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 2
+   "tentativas": 3
   },
   "https://www.conjur.com.br/leitor/login?from=%2F2021-ago-11%2Fstj-mantem-condenacao-pms-massacre-carandiru": {
    "ref": {
@@ -220,7 +220,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 2
+   "tentativas": 3
   },
   "https://www.conjur.com.br/leitor/login?from=%2F2021-ago-16%2Fausencia-pericia-ampara-decisao-jurados-carandiru-stj": {
    "ref": {
@@ -237,7 +237,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 2
+   "tentativas": 3
   },
   "https://www.conjur.com.br/leitor/login?from=%2F2021-jun-13%2Fdemora-julgamento-massacre-carandiru": {
    "ref": {
@@ -254,7 +254,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 2
+   "tentativas": 3
   },
   "https://www.conjur.com.br/leitor/login?from=%2F2022-ago-04%2Fbarroso-mantem-condenacao-policiais-massacre-carandiru": {
    "ref": {
@@ -271,7 +271,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 2
+   "tentativas": 3
   },
   "https://www.conjur.com.br/leitor/login?from=%2F2022-nov-23%2Ftj-sp-julga-recurso-adia-outros-dois-carandiru": {
    "ref": {
@@ -288,7 +288,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 2
+   "tentativas": 3
   },
   "https://www.conjur.com.br/leitor/login?from=/2016-dez-19/cnj-investigara-ivan-sartori-voto-massacre-carandiru": {
    "ref": {
@@ -305,7 +305,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 2
+   "tentativas": 3
   },
   "https://www.conjur.com.br/leitor/login?from=/2016-nov-01/pms-carandiru-tiveram-direitos-violados-dizem-advogados": {
    "ref": {
@@ -322,7 +322,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 2
+   "tentativas": 3
   },
   "https://www.conjur.com.br/leitor/login?from=/2016-out-11/advogados-atuaram-carandiru-serao-homenageados": {
    "ref": {
@@ -338,8 +338,8 @@
      "prefixo": "conjur.com.br"
     }
    },
-   "motivo": "falha_captura",
-   "tentativas": 2
+   "motivo": "reprovado_sentinela",
+   "tentativas": 3
   },
   "https://www.conjur.com.br/leitor/login?from=/2016-set-27/tj-sp-anula-condenacoes-policiais-massacre-carandiru": {
    "ref": {
@@ -356,7 +356,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 2
+   "tentativas": 3
   },
   "https://www.conjur.com.br/leitor/login?from=/2017-abr-11/tj-sp-nega-absolvicao-pms-condenados-massacre-carandiru": {
    "ref": {
@@ -373,7 +373,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 2
+   "tentativas": 3
   },
   "https://www.conjur.com.br/leitor/login?from=/2017-abr-11/tj-sp-retoma-carandiru-relator-nega-absolvicao-policiais": {
    "ref": {
@@ -390,7 +390,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 2
+   "tentativas": 3
   },
   "https://www.conjur.com.br/leitor/login?from=/2017-fev-14/defensoria-retirar-justica-paulista-juri-carandiru": {
    "ref": {
@@ -407,7 +407,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 2
+   "tentativas": 3
   }
  },
  "progresso": {}
