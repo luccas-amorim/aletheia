@@ -1,0 +1,30 @@
+{
+ "id": "20261124T013023Z",
+ "modo": "rodar",
+ "motor": "0.2.0",
+ "lexico": {
+  "id": "carandiru-provisorio",
+  "versao": "2026-10-04"
+ },
+ "inicio": "2026-11-24T01:30:23+00:00",
+ "fim": "2026-11-24T01:30:25+00:00",
+ "desde": {
+  "openalex:carandiru": "1992-10-02"
+ },
+ "falhas_de_fonte": {
+  "openalex:carandiru": "listagem: ErroColeta: GET https://api.openalex.org/works?search=carandiru&filter=from_publication_date%3A1992-10-02&per-page=200&cursor=IlsxNS44MjQ3NTgsIDE1MzY3MTA0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMjc3NDc0MDk1NCddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cprimary_location%2Copen_access -> HTTP 401: {\"error\":\"API key required for cursor paging\",\"message\":\"Paging past the first page with cursor= needs a free API key. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\\\"email\\\": \\\"<your user's email>\\\"}; we email them a link, and the key works once they"
+ },
+ "incompletas": {},
+ "pede_leitura": true,
+ "contagens": {
+  "situacao": {
+   "triado": 24
+  },
+  "motivo": {
+   "aceito": 6,
+   "pede_juizo": 7,
+   "sem_contexto": 11
+  }
+ },
+ "codigo_saida": 2
+}
