@@ -2,21 +2,21 @@
 
 ## Estrato `academico`
 
-Documentos distintos observados: **98**.
+Documentos distintos observados: **109**.
 
 | Canal | Documentos | Só neste canal |
 |---|---|---|
-| `crossref` | 34 | 1 |
-| `openalex` | 97 | 64 |
+| `crossref` | 36 | 0 |
+| `openalex` | 109 | 73 |
 
 **Total estimado**
 
-- **Chao (piso, 2 canais comparáveis):** 162 (vistos por um canal só: 65; por exatamente dois: 33).
+- **Chao (piso, 2 canais comparáveis):** 183 (vistos por um canal só: 73; por exatamente dois: 36).
 - **Cobertura:** no máximo 60% (observados ÷ piso).
 
 | Par | n1 | n2 | em comum | Chapman | IC 95% |
 |---|---|---|---|---|---|
-| `crossref` × `openalex` | 34 | 97 | 33 | 100 | 98 a 104 |
+| `crossref` × `openalex` | 36 | 109 | 36 | 109 | 109 a 109 |
 
 Par sem nada em comum dá estimativa enorme e instável: não diz que o total é enorme, diz que os dois canais olham para lugares diferentes.
 
@@ -27,6 +27,8 @@ Par sem nada em comum dá estimativa enorme e instável: não diz que o total é
 | 20261019T184015Z | 97 | 97 |
 | 20261019T191812Z | 1 | 98 |
 | 20261019T194835Z | 0 | 98 |
+| 20261124T013023Z | 11 | 109 |
+| 20261124T013519Z | 0 | 109 |
 
 ## Estrato `geral`
 
@@ -47,6 +49,8 @@ Com um canal comparável só não há estimativa: é preciso ao menos dois (cana
 | 20261019T184015Z | 0 | 38 |
 | 20261019T191812Z | 0 | 38 |
 | 20261019T194835Z | 0 | 38 |
+| 20261124T013023Z | 0 | 38 |
+| 20261124T013519Z | 0 | 38 |
 
 ## Estrato `imprensa`
 
@@ -84,6 +88,8 @@ Par sem nada em comum dá estimativa enorme e instável: não diz que o total é
 | 20261019T184015Z | 0 | 89 |
 | 20261019T191812Z | 0 | 89 |
 | 20261019T194835Z | 0 | 89 |
+| 20261124T013023Z | 0 | 89 |
+| 20261124T013519Z | 0 | 89 |
 
 ## Estrato `juridico`
 
@@ -109,6 +115,8 @@ Com um canal comparável só não há estimativa: é preciso ao menos dois (cana
 | 20261019T184015Z | 0 | 101 |
 | 20261019T191812Z | 0 | 101 |
 | 20261019T194835Z | 0 | 101 |
+| 20261124T013023Z | 0 | 101 |
+| 20261124T013519Z | 0 | 101 |
 
 ## Estrato `memoria`
 
@@ -125,6 +133,8 @@ Com um canal comparável só não há estimativa: é preciso ao menos dois (cana
 | Rodada | Novos | Total |
 |---|---|---|
 | 20261019T194835Z | 9 | 9 |
+| 20261124T013023Z | 0 | 9 |
+| 20261124T013519Z | 0 | 9 |
 
 
 ## Como ler
