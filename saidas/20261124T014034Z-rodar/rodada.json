@@ -1,0 +1,26 @@
+{
+ "id": "20261124T014034Z",
+ "modo": "rodar",
+ "motor": "0.2.0",
+ "lexico": {
+  "id": "carandiru-provisorio",
+  "versao": "2026-10-04"
+ },
+ "inicio": "2026-11-24T01:40:34+00:00",
+ "fim": "2026-11-24T01:40:35+00:00",
+ "desde": {
+  "ia:carandiru": "2026-10-12"
+ },
+ "falhas_de_fonte": {},
+ "incompletas": {},
+ "pede_leitura": false,
+ "contagens": {
+  "situacao": {
+   "triado": 1
+  },
+  "motivo": {
+   "sem_contexto": 1
+  }
+ },
+ "codigo_saida": 0
+}
