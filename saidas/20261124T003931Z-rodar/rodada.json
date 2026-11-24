@@ -1,0 +1,25 @@
+{
+ "id": "20261124T003931Z",
+ "modo": "rodar",
+ "motor": "0.2.0",
+ "lexico": {
+  "id": "carandiru-provisorio",
+  "versao": "2026-10-04"
+ },
+ "inicio": "2026-11-24T00:39:31+00:00",
+ "fim": "2026-11-24T00:44:18+00:00",
+ "desde": {
+  "topico:agenciabrasil": "2026-10-06"
+ },
+ "falhas_de_fonte": {},
+ "incompletas": {},
+ "pede_leitura": false,
+ "contagens": {
+  "situacao": {
+   "falha_captura": 46,
+   "reprovado_sentinela": 1
+  },
+  "motivo": {}
+ },
+ "codigo_saida": 0
+}
