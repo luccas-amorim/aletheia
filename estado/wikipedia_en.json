@@ -1,6 +1,6 @@
 {
  "fonte": "wikipedia:en",
- "ultima_rodada": "2026-10-19",
+ "ultima_rodada": "2026-11-24",
  "vistos": {
   "aljazeera.com/archive/2006/09/2008410144751341953.html": "7164c42c74a26958d1a3e09618bccf42ec0e5d2291c7faf0cd0cf0721f936167",
   "amnesty.org/en/documents/amr19/008/1993/en": "",
@@ -26,6 +26,7 @@
   "search.worldcat.org/issn/0362-4331": "",
   "terra.com.br/noticias/brasil/policia/carandiru-oficial-da-rota-diz-que-pms-foram-atacados-com-materiais-com-hiv,d865053161730410VgnVCM4000009bcceb0aRCRD.html": "b626d486a05279676a4edbfd2af23921056523e51a1b53f8ef42013ff1a3e32f",
   "theaustralian.com.au/news/breaking-news/brazil-police-jailed-for-prison-massacre/story-fn3dxix6-1226625521557": "",
+  "theaustralian.com.au/news/latest-news/brazil-police-jailed-for-prison-massacre/news-story/01a8806ab7be26ece00fc336cb920357": "",
   "theguardian.com/world/2006/sep/12/brazil.mainsection": "55ec9810a7062d8b9c44160c67184a195160bd5dce6aca9e1be29274417b0e55",
   "vice.com/en/article/sepultura-chaos-ad-colonialism-thrash": "d1b9786a1feb0b9b99d18f772edfa3ff8b5697ce3e729cbcf9a7750c893ce699",
   "worldcourts.com/iacmhr/eng/decisions/2000.04.13_Carandiru_v_Brazil.htm": "",
@@ -44,7 +45,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "nytimes.com/1992/10/04/world/111-killed-when-police-storm-brazilian-prison-during-inmate-riot.html": {
    "ref": {
@@ -58,7 +59,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "nytimes.com/2017/01/04/opinion/brazils-deadly-prison-system.html": {
    "ref": {
@@ -72,7 +73,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "washingtonpost.com/news/monkey-cage/wp/2017/01/17/brazils-prison-massacres-are-a-frightening-window-into-gang-warfare": {
    "ref": {
@@ -86,7 +87,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "youtube.com/watch?v=YhqjNMlnFoc": {
    "ref": {
@@ -99,8 +100,8 @@
      "via": "en.wikipedia.org/wiki/Carandiru_massacre"
     }
    },
-   "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "motivo": "falha_captura",
+   "tentativas": 2
   },
   "youtube.com/watch?v=wOwql-QEeqc": {
    "ref": {
@@ -113,8 +114,8 @@
      "via": "en.wikipedia.org/wiki/Carandiru_massacre"
     }
    },
-   "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "motivo": "falha_captura",
+   "tentativas": 2
   }
  },
  "progresso": {}
