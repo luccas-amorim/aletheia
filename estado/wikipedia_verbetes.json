@@ -1,6 +1,6 @@
 {
  "fonte": "wikipedia:verbetes",
- "ultima_rodada": "2026-10-19",
+ "ultima_rodada": "2026-11-24",
  "vistos": {
   "acessajuventude.webnode.com.br/historia-do-carandiru": "784a7ed4125537a3ee900d79bbc8f76e95b0fcbecf6b67e338503fd6a6e3bf34",
   "agenciabrasil.ebc.com.br/direitos-humanos/noticia/2014-02/ex-diretor-de-seguranca-do-carandiru-diz-que-rota-chegou-ao": "503777efdcedeb23636fead5e69fed336c86254e6361564272791921f9057c3a",
@@ -65,7 +65,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "buzzfeed.com.br/quiz/15-classicos-da-televisao-que-merecem-ser-reprisados-agora-mesmo": {
    "ref": {
@@ -79,7 +79,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "calvados.c3sl.ufpr.br/ojs2/index.php/historia/article/view/4648/3804": {
    "ref": {
@@ -93,7 +93,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "cdppare.sap.sp.gov.br/common/noticias/0001-0099/not090a.html": {
    "ref": {
@@ -107,7 +107,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "dx.doi.org/10.20873%2Fuft.2447-4266.2016v2n1p92": {
    "ref": {
@@ -121,7 +121,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "ebc.com.br/noticias/brasil/2013/04/tropa-ja-chegou-invadindo-e-metralhando-diz-ex-diretor-da-divisao-de": {
    "ref": {
@@ -135,7 +135,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "fox.com/prisonbreak/showinfo": {
    "ref": {
@@ -149,7 +149,7 @@
     }
    },
    "motivo": "reprovado_sentinela",
-   "tentativas": 1
+   "tentativas": 2
   },
   "jn.pt/PaginaInicial/Mundo/Brasil/Interior.aspx?content_id=2805908": {
    "ref": {
@@ -163,7 +163,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "midiaindependente.org/pt/red/2006/02/345947.shtml": {
    "ref": {
@@ -177,7 +177,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "noticias.terra.com.br/brasil/interna/0,,OI1136602-EI5030,00.html": {
    "ref": {
@@ -191,7 +191,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "noticias.terra.com.br/brasil/interna/0,,OI1237574-EI7772,00.html": {
    "ref": {
@@ -205,7 +205,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "noticias.terra.com.br/brasil/referendodesarmamento/interna/0,,OI722310-EI5475,00-Exdiretor+do+Carandiru+e+assassinado+apos+votar.html": {
    "ref": {
@@ -219,7 +219,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "nytimes.com/2017/01/04/opinion/brazils-deadly-prison-system.html": {
    "ref": {
@@ -233,7 +233,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "observatoriodaimprensa.com.br/artigos/fd050398.htm": {
    "ref": {
@@ -247,7 +247,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "scielo.br/scielo.php?pid=S1517-45222004000100014&script=sci_arttext&tlng=pt": {
    "ref": {
@@ -261,7 +261,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "sistemas.uft.edu.br/periodicos/index.php/observatorio/article/view/1820": {
    "ref": {
@@ -275,7 +275,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   },
   "teleguiado.com/televisao/gugu-socorro-leite-carandiru": {
    "ref": {
@@ -289,7 +289,7 @@
     }
    },
    "motivo": "falha_captura",
-   "tentativas": 1
+   "tentativas": 2
   }
  },
  "progresso": {}

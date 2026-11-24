@@ -1,0 +1,25 @@
+{
+ "id": "20261124T004954Z",
+ "modo": "rodar",
+ "motor": "0.2.0",
+ "lexico": {
+  "id": "carandiru-provisorio",
+  "versao": "2026-10-04"
+ },
+ "inicio": "2026-11-24T00:49:54+00:00",
+ "fim": "2026-11-24T01:09:06+00:00",
+ "desde": {
+  "wikipedia:verbetes": "2026-10-12"
+ },
+ "falhas_de_fonte": {},
+ "incompletas": {},
+ "pede_leitura": false,
+ "contagens": {
+  "situacao": {
+   "falha_captura": 16,
+   "reprovado_sentinela": 1
+  },
+  "motivo": {}
+ },
+ "codigo_saida": 0
+}
